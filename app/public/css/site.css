@@ -1,0 +1,53 @@
+/* CSS Taken from the following resource: https://getbootstrap.com/docs/4.0/examples/sign-in/ */
+
+html,body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 450px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.sap-background {
+    background: url("/img/SAP_Background.jpg");
+    background-repeat: no-repeat;
+}
+
+.login_area {
+    margin-bottom: 80px;
+}
+
+.login_box {
+    margin: 15px;
+}
+
+/* Working with button desing */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #019CE0;
+}
+
+.sap_logon {
+   color: white;
+   width: 450px;
+   margin-bottom: 30px;
+}
+
+.sap_change {
+    background-color: white;
+    color: black;
+    width: 450px;
+}
